@@ -1,0 +1,8 @@
+#pylint: skip-file
+from src.descompresion.descomprimir import descomprimir_archivo
+from src.integracion_datos.integracion_csv import integrar_csv_en_diccionario
+from src.integracion_datos.integracion_pandas import integrar_csv_en_dataframe
+from src.procesamiento_datos.calculo_dias import calcular_air_days
+from src.procesamiento_datos.diccionario_posters import crear_diccionario_posters
+from src.filtrado_datos.filtrado_series import filtrar_series_por_palabras_clave
+from src.filtrado_datos.series_2023_canceladas import obtener_series_2023_canceladas
